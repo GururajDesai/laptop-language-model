@@ -52,3 +52,7 @@ Run llm model locally and interact with it like we do with ChatGPT/Bard/Bing/etc
 ### More resources ? Want to try bigger models ?
 
 You can have look for models of the same variant here: https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M
+
+### Sample Output
+
+![alt text](https://raw.githubusercontent.com/GururajDesai/laptop-language-model/master/docs/output.png)
