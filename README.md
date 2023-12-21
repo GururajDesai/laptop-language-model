@@ -1,4 +1,4 @@
-## Local Laptop GPT
+## Local Language Model
 
 Run llm model locally and interact with it like we do with ChatGPT/Bard/Bing/etc
 
@@ -6,7 +6,7 @@ Run llm model locally and interact with it like we do with ChatGPT/Bard/Bing/etc
 
 1. If you're interested in exploring or building ChatGPT-like applications, this repository is a valuable resource.
 
-2. It's particularly well-suited for those with limited resources, such as laptops with 8GB of RAM or no dedicated graphics card (GPU).
+2. It's particularly well-suited for those with limited resources, such as laptops with 4GB of RAM or no dedicated graphics card (GPU).
 
 ### Simple steps to run a language model locally:
 
@@ -29,7 +29,8 @@ Run llm model locally and interact with it like we do with ChatGPT/Bard/Bing/etc
     pip3 install -r requirements.txt
 ```
 
-5. Download the model "pytorch_model.bin" from the Hugging Face Model Hub: https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M. Because cloning from huggingface will not download the model only downloads the pointer to the file.
+5. Download the folder "LaMini-Flan-T5-248M" and model "pytorch_model.bin" from the Hugging Face Model Hub: https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M. Because cloning from huggingface will not download the model only downloads the pointer to the file.
+
 6. Execute the run.py script to start the language model -> Only runs using transformers package
    ```py
        python3 run.py
