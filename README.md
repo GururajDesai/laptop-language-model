@@ -1,4 +1,4 @@
-## Local Language Model
+## Local(Laptop) Language Model
 
 Run llm model locally and interact with it like we do with ChatGPT/Bard/Bing/etc
 
